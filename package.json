@@ -2,7 +2,7 @@
   "name": "markdown-it-v-codemirror-highlighter",
   "version": "0.1.0",
   "description": "A code highlighter for markdown-it-v using CodeMirror",
-  "main": "dist/index.common.js",
+  "main": "dist/nodeIndex.common.js",
   "repository": "https://github.com/TitanSnow/markdown-it-v-codemirror-highlighter",
   "author": "TitanSnow",
   "license": "MIT",
@@ -10,12 +10,9 @@
     "codemirror": "^5.39.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.54",
-    "@babel/preset-env": "^7.0.0-beta.54",
     "markdown-it": "^8.4.2",
     "markdown-it-v": "^1.0.0-alpha.1",
-    "rollup": "^0.63.2",
-    "rollup-plugin-babel": "^4.0.0-beta.7"
+    "rollup": "^0.63.2"
   },
   "scripts": {
     "build": "rollup -c"
