@@ -10,11 +10,16 @@
     "codemirror": "^5.39.0"
   },
   "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
     "markdown-it": "^8.4.2",
     "markdown-it-v": "^1.0.0-alpha.1",
+    "prettier": "^1.13.7",
     "rollup": "^0.63.2"
   },
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "lint": "eslint src/**/*.js"
   }
 }
