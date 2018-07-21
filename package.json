@@ -21,5 +21,11 @@
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint src/**/*.js"
-  }
+  },
+  "keywords": [
+    "markdown-it",
+    "markdown-it-plugin",
+    "markdown-it-v-plugin",
+    "highlight"
+  ]
 }
