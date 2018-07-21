@@ -1,5 +1,5 @@
 # markdown⁠-⁠it⁠-⁠v⁠-⁠codemirror⁠-⁠highlighter
-A code highlighter for [markdown⁠-⁠it⁠-⁠v](https://github.com/TitanSnow/markdown-it-v) using CodeMirror
+A code highlighter for [markdown⁠-⁠it⁠-⁠v](https://github.com/TitanSnow/markdown-it-v) using [CodeMirror](https://codemirror.net)
 
 ## Installation
 ```console
@@ -16,6 +16,7 @@ For Node.js:
 const MarkdownIt    = require('markdown-it')
 const MarkdownItV   = require('markdown-it-v')
 const MarkdownItVHL = require('markdown-it-v-codemirror-highlighter')
+require('codemirror/mode/clike/clike')    // import language
 
 const md = MarkdownIt()
   .use(MarkdownItV)
@@ -35,7 +36,9 @@ For browser (using es6 module with web bundler):
 ```javascript
 import MarkdownIt    from 'markdown-it'
 import MarkdownItV   from 'markdown-it-v'
-import MarkdownItVHL from 'markdown-it-v-codemirror-highlighter'
+// import the entry point for browser
+import MarkdownItVHL from 'markdown-it-v-codemirror-highlighter/dist/browserIndex.common.js'
+import 'codemirror/mode/clike/clike'      // import language
 import 'codemirror/theme/mdn-like.css'    // import theme css
 
 const md = MarkdownIt()
