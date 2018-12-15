@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-v-codemirror-highlighter",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0",
   "description": "A code highlighter for markdown-it-v using CodeMirror",
   "main": "dist/nodeIndex.common.js",
   "repository": "https://github.com/TitanSnow/markdown-it-v-codemirror-highlighter",
