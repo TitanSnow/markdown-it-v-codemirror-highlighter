@@ -27,5 +27,8 @@
     "markdown-it-plugin",
     "markdown-it-v-plugin",
     "highlight"
+  ],
+  "files": [
+    "dist"
   ]
 }
